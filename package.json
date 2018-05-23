@@ -1,0 +1,42 @@
+{
+  "name": "tj-react-file-selector",
+  "version": "0.4.3",
+  "description": "react文件选择",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./index.js",
+    "build": "npm run clean && webpack",
+    "dev": "webpack-dev-server --config ./examples/webpack.config.dev.js",
+    "start": "rimraf ./examples-output && npm run dev",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhizao/tj-react-file-selector.git"
+  },
+  "author": "tyke09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhizao/tj-react-file-selector/issues"
+  },
+  "homepage": "https://github.com/zhizao/tj-react-file-selector#readme",
+  "peerDependencies": {
+    "react": ">=0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.2.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "react-dropzone": "^4.2.3"
+  }
+}

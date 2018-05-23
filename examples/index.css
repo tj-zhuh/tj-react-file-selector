@@ -1,0 +1,20 @@
+.tj-react-file-selector {
+}
+
+.tj-react-file-selector > div {    
+    height: 200px;
+    border: 2px dashed #666;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+}
+
+.tj-react-file-selector > span {
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+}
+
+.tj-react-file-selector p {
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+}
